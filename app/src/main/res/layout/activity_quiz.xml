@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.myframeworkapp.quiz.QuizActivity">
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="350sp"
+            android:layout_height="50sp"
+            android:layout_gravity="center"
+            android:layout_alignParentLeft="true"
+            android:text="Question to answer"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+
+    
+    <Button
+        android:id="@+id/choice1"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:layout_gravity="center"
+        android:text="A"
+        android:textSize="25dp" />
+
+
+    <Button
+        android:id="@+id/choice2"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:text="B"
+        android:textSize="25dp"
+        android:layout_gravity="center"/>
+
+
+    <Button
+        android:id="@+id/choice3"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:text="C"
+        android:textSize="25dp"
+        android:layout_gravity="center"/>
+
+
+    <Button
+        android:id="@+id/choice4"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:text="D"
+        android:textSize="25dp"
+        android:layout_gravity="center" />
+
+
+    <RelativeLayout
+        android:layout_marginTop="20sp"
+        android:layout_width="350sp"
+        android:layout_height="250sp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/score_text"
+            android:layout_width="228dp"
+            android:layout_height="193dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginBottom="40dp"
+            android:text="Score"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="61dp"
+            android:layout_height="185dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="19dp"
+            android:layout_marginEnd="13dp"
+            android:layout_toEndOf="@+id/score_text"
+            android:text="0/0"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</LinearLayout>

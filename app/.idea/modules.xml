@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/485166790/MyFrameworkApp.iml" filepath="$PROJECT_DIR$/.idea/modules/485166790/MyFrameworkApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MyFrameworkApp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/MyFrameworkApp.app.iml" />
+    </modules>
+  </component>
+</project>

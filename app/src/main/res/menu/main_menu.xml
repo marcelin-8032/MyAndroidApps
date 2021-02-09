@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/item_home"
+        android:icon="@drawable/home"
+        android:title="Home"
+        app:showAsAction="always"
+        tools:override="true"/>
+
+    <item
+        android:id="@+id/menuItem_search"
+        android:icon="@drawable/icon_search"
+        android:title="Search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/item_profile"
+        android:title="Profile"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/item_call"
+        android:title="Call"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/item_bluetooth"
+        android:title="Bluetooth"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/item_calendar"
+        android:title="Calendar"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/item_compass"
+        android:title="Compass"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/item_content"
+        android:title="Content Provider"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/item_calculator"
+        android:title="Calculator"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/item_notif"
+        android:title="Notification"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/item_gyroscope"
+        android:title="Gyroscope"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/item_filemange"
+        android:title="FileManager"
+        app:showAsAction="collapseActionView" />
+
+     <item
+        android:id="@+id/item_quiz"
+        android:title="Quiz"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/item_motion"
+        android:title="MotionSensor"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/item_alarm"
+        android:title="Alarm"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/item_game"
+        android:title="Games"
+        app:showAsAction="collapseActionView">
+
+        <menu>
+            <item
+                android:id="@+id/item_game1"
+                android:title="GameBird"
+                app:showAsAction="collapseActionView" />
+            <item
+                android:id="@+id/item_game2"
+                android:title="GameTicTocToe"
+                app:showAsAction="collapseActionView" />
+            <item
+                android:id="@+id/item_game3"
+                android:title="Game3"
+                app:showAsAction="collapseActionView" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/item_download"
+        android:title="Download"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/item_wifi"
+        android:title="Wifi"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/item_setting"
+        android:title="Setting"
+        android:icon="@drawable/setting"
+        app:showAsAction="collapseActionView" />
+</menu>

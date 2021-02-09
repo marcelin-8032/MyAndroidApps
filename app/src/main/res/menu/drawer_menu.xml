@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile_icon"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/nav_call"
+            android:icon="@drawable/call"
+            android:title="Call" />
+        <item
+            android:id="@+id/nav_Bluetooth"
+            android:icon="@drawable/bluetooth"
+            android:title="Bluetooth" />
+
+        <item
+            android:id="@+id/nav_Calendar"
+            android:icon="@drawable/calendar"
+            android:title="Calendar" />
+
+        <item
+            android:id="@+id/nav_compass"
+            android:icon="@drawable/compass_sss"
+            android:title="Compass" />
+
+        <item
+            android:id="@+id/nav_content_provider"
+            android:icon="@drawable/contentprovider"
+            android:title="Content Provider" />
+
+        <item
+            android:id="@+id/nav_calculator"
+            android:icon="@drawable/calculatrice"
+            android:title="Calculator" />
+
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/notification"
+            android:title="Notification" />
+
+        <item
+            android:id="@+id/nav_gyroscope"
+            android:icon="@drawable/gyroscope"
+            android:title="Gyroscope" />
+
+        <item
+            android:id="@+id/nav_file_manager"
+            android:icon="@drawable/filemanager"
+            android:title="File Manager" />
+
+        <item
+            android:id="@+id/nav_Quiz"
+            android:icon="@drawable/quiz"
+            android:title="Quiz" />
+
+        <item
+            android:id="@+id/nav_alarm"
+            android:icon="@drawable/alarm_clock"
+            android:title="Alarm" />
+
+        <item
+            android:id="@+id/nav_download"
+            android:icon="@drawable/download"
+            android:title="Download" />
+
+        <item
+            android:id="@+id/nav_wifi"
+            android:icon="@drawable/wifi"
+            android:title="Wifi" />
+
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/setting"
+            android:title="Setting" />
+    </group>
+
+    <item android:title="Game">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_game1"
+                android:icon="@drawable/fly1"
+                android:title="Birds" />
+            <item
+                android:id="@+id/nav_game2"
+                android:icon="@drawable/tic_tac_toe"
+                android:title="Tic-Tac-Toe" />
+            <item
+                android:id="@+id/nav_game3"
+                android:icon="@drawable/volleyball"
+                android:title="VolleyBall" />
+            </group>
+        </menu>
+    </item>
+
+</menu>
